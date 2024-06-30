@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 729px;
+    width: 550px;
+}
+
+header {
+    background-color: #6943FF;
+    width: 550px;
+    min-height: 285px;
+    padding: 33px 51px;
+    display: flex;
+    flex-direction: column;
+}
+
+.unitConverter_header {
+    font-size: 28px;
+    color: #FFF;
+    text-align: center;
+}
+
+.unitConverter_input {
+    width: 117px;
+    height: 83px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    color: #F4F4F4;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.unitConverter_btn {
+    width: 117px;
+    height: 42px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+.unitConverter_btn:hover {
+    background-color: #3d4f69;
+    transition: 0.5s ease;
+}
+
+footer {
+    background-color: #F4F4F4;
+    width: 550px;
+    min-height: 444px;
+    padding: 35px 25px;
+}
+
+.unitConverter_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 23.43px;
+}
+
+.unitConverter_card {
+    width: 500px;
+    height: 108px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 31px 77px;
+}
+
+.unitConverter_card_header {
+    color: #5A537B;
+    font-size: 20px;
+}
+
+#meterToFeet, #literToGallon, #kilogramsToPounds {
+    font-size: 14px;
+    margin-top: 10px;
+}
